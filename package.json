@@ -1,6 +1,6 @@
 {
   "name": "realm-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of handy React Elements",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
