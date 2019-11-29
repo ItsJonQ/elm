@@ -29,7 +29,7 @@ function getBreakpoint(breakpoint) {
 	return window.innerWidth;
 }
 
-function shouldViewportShow(width = BREAKPOINTS.md) {
+function shouldViewportShow(width) {
 	const breakpoint = getBreakpoint(width);
 	const isXs = isSmallestBreakpoint(width);
 	const { innerWidth } = window;
@@ -42,8 +42,10 @@ function shouldViewportShow(width = BREAKPOINTS.md) {
 }
 
 export function useViewport(breakpoint) {
-	const [visible, setVisible] = useState(breakpoint);
+	const [visible, setVisible] = useState(shouldViewportShow(breakpoint));
 
+	/* istanbul ignore next */
+	// window resize event isn't triggered correctly in JSDOM
 	const calculateVisibility = useCallback(() => {
 		setVisible(shouldViewportShow(breakpoint));
 	}, [breakpoint]);

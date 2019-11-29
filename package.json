@@ -13,7 +13,7 @@
     "build": "npm run build:cjs && npm run build:es -- --no-clean",
     "lint": "zero lint",
     "dev": "zero test",
-    "test": "npm run build",
+    "test": "zero test --coverage",
     "test:coverage": "zero test --coverage",
     "format": "zero format",
     "validate": "zero validate",
@@ -67,6 +67,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@itsjonq/cyan": "0.15.1",
     "@sindresorhus/is": "1.2.0",
     "dash-get": "1.0.2",
     "styled-view": "0.0.7"
