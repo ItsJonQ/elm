@@ -1,7 +1,7 @@
 {
   "name": "realm-kit",
   "version": "0.0.0",
-  "description": "Module generated with Zero",
+  "description": "A collection of handy React Elements",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "sideEffects": false,
@@ -13,14 +13,39 @@
     "build": "npm run build:cjs && npm run build:es -- --no-clean",
     "lint": "zero lint",
     "dev": "zero test",
-    "test": "zero test --no-watch",
+    "test": "npn run build",
     "test:coverage": "zero test --coverage",
     "format": "zero format",
     "validate": "zero validate",
     "release": "zero release",
     "version": "npm run build",
-    "precommit": "zero pre-commit"
+    "precommit": "zero pre-commit",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
+  "author": "Jon Quach <hello@jonquach.com> (https://jonquach.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjonq/realm-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itsjonq/realm-kit/issues"
+  },
+  "homepage": "https://github.com/itsjonq/realm-kit#readme",
+  "keywords": [
+    "react",
+    "components",
+    "elements",
+    "common",
+    "ui",
+    "kit",
+    "base",
+    "view",
+    "styled-components",
+    "emotion",
+    "css-in-js",
+    "css"
+  ],
   "files": [
     "dist",
     "README.md",
@@ -28,7 +53,13 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "7.7.4",
     "@itsjonq/zero": "4.1.8",
+    "@storybook/addon-actions": "5.2.6",
+    "@storybook/addon-links": "5.2.6",
+    "@storybook/addons": "5.2.6",
+    "@storybook/react": "5.2.6",
+    "babel-loader": "8.0.6",
     "react": "16.12.0",
     "react-dom": "16.12.0"
   },
@@ -36,6 +67,8 @@
     "access": "public"
   },
   "dependencies": {
+    "@sindresorhus/is": "1.2.0",
+    "dash-get": "1.0.2",
     "styled-view": "0.0.7"
   }
 }
