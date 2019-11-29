@@ -1,5 +1,9 @@
 # 🌳 Realm Kit
 
+[![Build Status](https://travis-ci.org/ItsJonQ/realm-kit.svg?branch=master)](https://travis-ci.org/ItsJonQ/realm-kit)
+[![Coverage Status](https://coveralls.io/repos/github/ItsJonQ/realm-kit/badge.svg?branch=master)](https://coveralls.io/github/ItsJonQ/realm-kit?branch=master)
+[![Bundle size](https://badgen.net/bundlephobia/minzip/realm-kit)](https://bundlephobia.com/result?p=realm-kit)
+
 > A collection of handy React Elements
 
 ## Table of Contents
