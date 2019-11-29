@@ -53,6 +53,9 @@
     "LICENSE"
   ],
   "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.x"
+  },
   "devDependencies": {
     "@babel/core": "7.7.4",
     "@itsjonq/zero": "4.1.8",
