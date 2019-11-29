@@ -13,7 +13,7 @@
     "build": "npm run build:cjs && npm run build:es -- --no-clean",
     "lint": "zero lint",
     "dev": "zero test",
-    "test": "npn run build",
+    "test": "npm run build",
     "test:coverage": "zero test --coverage",
     "format": "zero format",
     "validate": "zero validate",
