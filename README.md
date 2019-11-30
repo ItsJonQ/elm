@@ -26,5 +26,6 @@ npm install @itsjonq/elm
 
 -   Flex
 -   MediaQuery
+-   Truncate
 -   View
 -   Viewport
