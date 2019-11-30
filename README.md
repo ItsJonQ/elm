@@ -1,8 +1,8 @@
-# 🌳 Realm Kit
+# 🌳 Elm
 
-[![Build Status](https://travis-ci.org/ItsJonQ/realm-kit.svg?branch=master)](https://travis-ci.org/ItsJonQ/realm-kit)
-[![Coverage Status](https://coveralls.io/repos/github/ItsJonQ/realm-kit/badge.svg?branch=master)](https://coveralls.io/github/ItsJonQ/realm-kit?branch=master)
-[![Bundle size](https://badgen.net/bundlephobia/minzip/realm-kit)](https://bundlephobia.com/result?p=realm-kit)
+[![Build Status](https://travis-ci.org/ItsJonQ/elm.svg?branch=master)](https://travis-ci.org/ItsJonQ/elm)
+[![Coverage Status](https://coveralls.io/repos/github/ItsJonQ/elm/badge.svg?branch=master)](https://coveralls.io/github/ItsJonQ/elm?branch=master)
+[![Bundle size](https://badgen.net/bundlephobia/minzip/@itsjonq/elm)](https://bundlephobia.com/result?p=@itsjonq/elm)
 
 > A collection of handy React Elements
 
@@ -19,7 +19,7 @@
 ## Installation
 
 ```
-npm install realm-kit
+npm install @itsjonq/elm
 ```
 
 ## Elements

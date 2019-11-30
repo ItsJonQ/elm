@@ -1,5 +1,5 @@
 {
-  "name": "realm-kit",
+  "name": "@itsjonq/elm",
   "version": "0.0.3",
   "description": "A collection of handy React Elements",
   "main": "dist/cjs/index.js",
@@ -27,12 +27,12 @@
   "author": "Jon Quach <hello@jonquach.com> (https://jonquach.com)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itsjonq/realm-kit.git"
+    "url": "git+https://github.com/itsjonq/elm.git"
   },
   "bugs": {
-    "url": "https://github.com/itsjonq/realm-kit/issues"
+    "url": "https://github.com/itsjonq/elm/issues"
   },
-  "homepage": "https://github.com/itsjonq/realm-kit#readme",
+  "homepage": "https://github.com/itsjonq/elm#readme",
   "keywords": [
     "react",
     "components",
