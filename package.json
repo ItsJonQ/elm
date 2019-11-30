@@ -76,6 +76,7 @@
     "@itsjonq/cyan": "0.15.1",
     "@sindresorhus/is": "1.2.0",
     "dash-get": "1.0.2",
+    "json2mq": "0.2.0",
     "styled-view": "0.0.7"
   }
 }

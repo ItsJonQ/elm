@@ -1,5 +1,9 @@
 const jestConfig = require('@itsjonq/zero/jest');
 
 module.exports = Object.assign(jestConfig, {
-	// your overrides here
+	collectCoverageFrom: [
+		...jestConfig.collectCoverageFrom,
+		'!src/MediaQuery/**/*.{js,ts,tsx}',
+		'!src/Viewport/**/*.{js,ts,tsx}',
+	],
 });

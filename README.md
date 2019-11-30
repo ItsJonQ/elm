@@ -25,5 +25,6 @@ npm install realm-kit
 ## Elements
 
 -   Flex
+-   MediaQuery
 -   View
 -   Viewport
