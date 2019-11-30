@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Viewport } from '../src';
+import { View, Viewport } from '../../index';
 
 export default {
 	title: 'Viewport',

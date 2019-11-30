@@ -8,10 +8,12 @@
   "private": false,
   "scripts": {
     "prestart": "zero prestart",
+    "start": "npm run storybook",
     "coverage": "nyc report --temp-directory=coverage --reporter=text-lcov | coveralls",
     "build:es": "BUILD_FORMAT=es zero build -d dist/es",
     "build:cjs": "BUILD_FORMAT=cjs zero build -d dist/cjs",
     "build": "npm run build:cjs && npm run build:es -- --no-clean",
+    "open:coverage": "open ./coverage/lcov-report/index.html",
     "lint": "zero lint",
     "dev": "zero test",
     "test": "zero test --coverage",
