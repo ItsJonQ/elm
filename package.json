@@ -76,9 +76,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@sindresorhus/is": "^1.2.0",
+    "@itsjonq/is": "^0.0.1",
     "dash-get": "^1.0.2",
     "json2mq": "^0.2.0",
-    "styled-view": "^0.0.7"
+    "styled-view": "^0.0.9"
   }
 }

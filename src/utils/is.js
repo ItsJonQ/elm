@@ -1,1 +1,1 @@
-export { default as is } from '@sindresorhus/is';
+export { is } from '@itsjonq/is';

@@ -21,9 +21,7 @@ export function truncateMiddle(word, headLength, tailLength, ellipsis) {
 	const frontLength = ~~headLength; // will cast to integer
 	const backLength = ~~tailLength;
 	/* istanbul ignore next */
-	const truncateStr = !is.nullOrUndefined(ellipsis)
-		? ellipsis
-		: TRUNCATE_ELLIPSIS;
+	const truncateStr = is.defined(ellipsis) ? ellipsis : TRUNCATE_ELLIPSIS;
 
 	if (
 		(frontLength === 0 && backLength === 0) ||
